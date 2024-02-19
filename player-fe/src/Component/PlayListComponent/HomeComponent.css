@@ -1,0 +1,128 @@
+
+.main-container {
+  /* margin-top: 20px; */
+  padding-top: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+  transition: 0.5s;
+  background-color: rgba(51, 51, 51,0.6 );
+ }
+ .main-container-close{
+  transition: 0.5s;
+  background-color: rgba(51, 51, 51,0.6);
+  opacity: 0.4;
+ }
+ 
+ .dance-container {
+   margin: 20px;
+ }
+ 
+ .container {
+   margin: 10px;
+ }
+ 
+ .video,
+ .audio {
+   width: 100%;
+   max-width: 400px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   margin-bottom: 10px;
+ }
+ 
+
+ .video {
+   -webkit-filter: brightness(1.2) contrast(1.2);
+   padding: 10px;
+   background-color: rgb(65, 65, 65);
+
+ }
+ 
+ 
+ .audio {
+ background-color: rgb(65, 65, 65);
+ }
+ .p-sign{
+  font-size: large;
+  font-weight: bold;
+ }
+ .header{
+  /* margin: 50px; */
+  background-color: rgb(65, 65, 65);
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  padding:0.2px;
+  
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+ }
+ .header h1{
+  font-weight: lighter;
+  font-size: 20px;
+  
+ }
+ .choose-menu{
+  width: fit-content;
+  height: fit-content;
+ }
+ .audios{
+  background-color: rgb(65, 65, 65);
+ }
+ .rating{
+  margin-left: 15px;
+ }
+ .suggestion{
+
+  padding: 20px;
+
+
+ }
+ .suggestion-container{
+  margin: 10px;
+  position:absolute;
+  top:20%;
+ display: flex;
+ flex-direction: column;
+  height: max-content;
+align-items: center;
+
+border: solid 1px black;
+  /* padding: 20px; */
+  border-radius: 10px;
+  width: 98%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+ }
+ .suggestion-container-close{
+  display: none;
+ }
+
+ .btn {
+  background-color: #1f282b;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: #313233;
+}
+.btn-close{
+  background-color: rgb(176, 48, 48);
+  margin-bottom: 20px;
+}
+.btn-close:hover {
+  background-color: #cc4f4f;
+}
+
+html {
+  scroll-behavior: cubic-bezier(0.42, 0, 0.58, 1);
+  scroll-behavior: smooth; 
+  scroll-behavior: smooth 500ms; 
+}
+.suggest-p{
+  font-size: large;
+}

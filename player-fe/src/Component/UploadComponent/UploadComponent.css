@@ -1,0 +1,49 @@
+/* Add styles for the UploadComponent */
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #ddd;
+  background-color: rgba(51, 51, 51,0.6 );
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="file"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.btn-submit {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #45a049;
+}
+
+/* Add more styles as needed */
